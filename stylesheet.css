@@ -1,0 +1,228 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap');
+body{
+    background: #FFF4F4;
+}
+.header-wrap{
+    position: relative;
+}
+h1{
+    height: auto;
+}
+h1 img{
+    width: 100%;
+    height: auto;
+}
+.items{
+    position: absolute;
+    top:50%;
+    left: 58%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+}
+
+.items img{
+    max-width: 100%;
+    margin-top: 40px;
+}
+@keyframes fuwafuwa {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  .anime-fuwafuwa {
+    animation: 3s fuwafuwa infinite;
+  }
+  /* ここから導入 */
+.introduction img{
+    width: 100%;
+    margin: 0 auto;
+}
+/* ここからこんな方におすすめ */
+.recommend_title img{
+    margin: 80px auto 80px auto;
+    max-width: 70%;
+}
+.recommend_1{
+    max-width: 40%;
+    height: auto;
+    margin: auto auto auto 80px;
+}
+.recommend_2{
+    max-width: 40%;
+    margin: auto 80px auto  auto;
+    height: auto;
+}
+.recommend_3{
+    max-width: 40%;
+    height: auto;
+    margin: auto auto 80px 80px;
+}
+/* 購入ボタン */
+.purchase_btn{
+    max-width: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.purchase_btn  a:hover img{
+    opacity: 0.7;
+    filter: ctn_bottun (opacity=70);
+    -ms-filter: "ctn_bottun(opacity=70)";
+}
+.animation{
+    animation: buruburu 1s linear infinite;
+    scale: 1;
+  }
+  
+  @keyframes buruburu{
+   0%{transform:translateX(0)}
+   7%{transform:translateX(-10px)}
+   14%{transform:translateX(10px)}
+   20%{transform:translateX(-10px)}
+   32%{transform:translateX(10px)}
+   40%{transform:translateX(0px)}
+  }
+   
+
+/* ここから大豆イソフラボンについて */
+h2 img{
+    margin:130px auto 30px auto;
+    max-width: 60%;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+}
+.soy img{
+    margin: auto 0 100px 50px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.about{
+    margin: auto 50px 100px 30px;
+}
+/* ここから商品ラインナップ */
+.title-lineup img{
+    width: 60%;
+    margin: 150px auto 30px auto;
+}
+.lineup img{
+    margin: -100px auto;
+}
+/* 他の商品も見るボタン */
+.more_btn{
+    max-width: 50%;
+    margin: 120px auto;
+}
+.more_btn  a:hover img{
+    opacity: 0.7;
+    filter: more_bottun (opacity=70);
+    -ms-filter: "more_bottun(opacity=70)";
+}
+h3{
+    height: auto;
+}
+h3 img{
+    width: 100%;
+    margin: 50px  auto 80px auto;
+}
+/* ここからレビュー */
+.review{
+    background: #fff;
+}
+.review img{
+    margin:  70px  auto 0 auto;
+    width: 100%;
+    background: #fff;
+}
+.review_1{
+    width: 70%;
+    margin: 0 auto;
+    background: #fff;
+}
+.review_2{
+    width: 70%;
+    margin: 0 auto;
+    background: #fff;
+}
+.review_3{
+    width: 70%;
+    margin: 0 auto;
+    background: #fff;
+}
+.review_4{
+    width: 70%;
+    margin: 0 auto 80px auto;
+    background: #fff;
+}
+.logo{
+    background: #fff;
+}
+.logo img{
+    max-width: 20%;
+    margin: 0 auto;
+}
+/* ここからアイコン */
+.aicon-itiran{
+    background: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+.aicon-bg img{
+    width: 100%;
+}
+.aicon_1{
+    max-width: 10%;
+    width: 90px;
+    height: auto;
+    position: absolute;
+    top:55%;
+    left: 60%;
+}
+.aicon_1 a:hover img{
+    opacity: 0.7;
+  filter: aicon_1 (opacity=70);
+  -ms-filter: "aicon_1 (opacity=70)";
+}
+.aicon_2{
+    max-width: 10%;
+    width: 90px;
+    height: auto;
+    position: absolute;
+    top:55%;
+    left: 70%;
+}
+.aicon_2 a:hover img{
+    opacity: 0.7;
+  filter: aicon_2 (opacity=70);
+  -ms-filter: "aicon_2 (opacity=70)";
+}
+.aicon_3{
+    max-width: 13%;
+    width: 110px;
+    height: auto;
+    position: absolute;
+    top:55%;
+    left: 80%;
+}
+.aicon_3 a:hover img{
+    opacity: 0.7;
+  filter: aicon_3 (opacity=70);
+  -ms-filter: "aicon_3 (opacity=70)";
+}
+.copy{
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top:70%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    font-size:min(2vw,20px);
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 700;
+    font-style: normal;
+}
